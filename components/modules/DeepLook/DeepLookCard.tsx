@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 export interface DeepLookCardProps {
     image: any;
     logo: any;
@@ -12,6 +14,7 @@ export interface DeepLookCardProps {
 export const DeepLookCard = (props: DeepLookCardProps) => {
   return (
     <>
+        <AnimationOnScroll animateIn="animate__fade">
         <div className="grid grid-cols-12 hidden sm:grid">
             <div className={props.direction?"col-span-12 sm:col-span-5 p-5 text-center sm:text-left":"col-span-12 sm:col-span-7 p-5"}>
                 {props.direction?
@@ -52,6 +55,7 @@ export const DeepLookCard = (props: DeepLookCardProps) => {
                 </>
             </div>
         </div>
+        </AnimationOnScroll>
     </>
   );
 };

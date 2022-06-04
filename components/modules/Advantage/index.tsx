@@ -8,6 +8,8 @@ import Ad3 from "../../../assets/images/ad3.png";
 import Ad4 from "../../../assets/images/ad4.png";
 import SideLeft from "../../../assets/images/sideLeft.png";
 
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 export const Advantage = () => {
   return (
     <>
@@ -18,7 +20,9 @@ export const Advantage = () => {
             <div className="my-5 relative">
                 <div className="absolute w-[300px] sm:w-[300px] h-[400px] -top-[160px] -right-[0px] sm:-right-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="text-center">
-                    <span className="text-white text-center text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What are our <label className="text-lightprimary">advantages?</label></span>
+                    <AnimationOnScroll animateIn="animate__fade">
+                        <span className="text-white text-center text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What are our <label className="text-lightprimary">advantages?</label></span>
+                    </AnimationOnScroll>
                 </div>
             </div>
             <div className="my-15 mt-[100px] grid grid-cols-5">
@@ -27,6 +31,7 @@ export const Advantage = () => {
                 </div>
                 <div className="col-span-5 text-left lg:col-span-4 pl-[30px]">
                     <div className="grid grid-cols-1 sm:grid-cols-2">
+                        
                         <div className="mb-14 sm:pr-[8rem] mb-14">
                             <AdvantageCard image={Ad1} title={(<><span className="text-primary">Build</span> the metaverse</>)} description="Starting to build the metaverse by innovating its economic infrastructure through academic-grade daos engineered to be magnetically self-organizing to compose the new global organizational mesh" />
                         </div>
@@ -37,8 +42,7 @@ export const Advantage = () => {
                             <AdvantageCard image={Ad3} title={(<><span className="text-primary">Expand</span> the world</>)} description="Our standard for virtual worlds enable both scarcity and abundance by natively integrating a fully democratic way to expand the world, therefore a coordinated way to bring abundance to the ecosystem, when needed, in a decentralized algorithmical way." />
                         </div>
                         <div className="pr-[1rem] sm:pr-[8rem] mb-14">
-                            <AdvantageCard image={Ad4} title={(<><span className="text-primary">Improve</span> the process</>)} description="Web2 is awesome, it only misses a value layer, we&apos;re adding it
-" />
+                            <AdvantageCard image={Ad4} title={(<><span className="text-primary">Improve</span> the process</>)} description="Web2 is awesome, it only misses a value layer, we&apos;re adding it" />
                         </div>
                     </div>
 

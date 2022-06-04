@@ -14,13 +14,13 @@ export const ContactUs = () => {
             <div className="hidden sm:block absolute right-0 top-0">
               <Image src={Ball1}></Image>
             </div>
-            <div className="hidden sm:block absolute right-0 bottom-0">
+            <div className="hidden sm:flex absolute right-0 bottom-0">
               <Image src={Ball2}></Image>
             </div>
-            <div className="block sm:hidden absolute right-0 bottom-0">
+            <div className="flex sm:hidden absolute right-0 bottom-0">
               <Image src={MobBall1}></Image>
             </div>
-            <div className="block sm:hidden absolute left-0 bottom-0">
+            <div className="flex sm:hidden absolute left-0 bottom-0">
               <Image src={MobBall2}></Image>
             </div>
             <div className="mt-[64px] mb-[14px] relative">

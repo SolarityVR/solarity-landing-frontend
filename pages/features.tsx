@@ -4,10 +4,7 @@ import Card from "../components/common/Card";
 export default function Features() {
   return (
     <div>
-      <Head>
-        <title>Tailwind CSS Tutorial - Features</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      
 
       <div className="container px-5 py-10 mx-auto">
         {/* Cards Page - Title */}

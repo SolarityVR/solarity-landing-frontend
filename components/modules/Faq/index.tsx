@@ -15,8 +15,8 @@ export const Faq = () => {
             </div>
             <div className="my-15 mt-[100px]">
                 <div>
-                    {Faqs.map((faq) => 
-                        <Accordion title={faq.title} description={faq.description} />
+                    {Faqs.map((faq, index) => 
+                        <Accordion key={index} title={faq.title} description={faq.description} />
                     )}
                 </div>
             </div>

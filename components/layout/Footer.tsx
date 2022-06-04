@@ -22,7 +22,7 @@ export default function Footer() {
                 <div>
                     <a href="/" className="flex items-center py-3 px-2 text-white">
                     <Image src={LogoGrey}></Image>
-                    <span className="font-bold text-[20px] sm:text-3xl px-2 tracking-widest uppercase text-footer">Solarity</span>
+                    <span className="font-bold text-[18px] sm:text-[20px] sm:text-3xl px-2 tracking-widest uppercase text-footer">Solarity</span>
                     </a>
                 </div>
                 </div>
@@ -30,13 +30,13 @@ export default function Footer() {
                 {/* secondary nav */}
                 <div className="items-center space-x-1 pt-1 pb-1">
                 <a href="#" className="inline-flex py-5 px-3.5 text-white hover:text-primary">
-                    <Image src={Discord} />
+                    <Image src={Discord} width={32} height={25} />
                 </a>
                 <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
-                    <Image src={Medium} />
+                    <Image src={Medium} width={32} height={25} />
                 </a>
                 <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
-                    <Image src={Twitter} />
+                    <Image src={Twitter} width={32} height={25} />
                 </a>
                 </div>
             </div>

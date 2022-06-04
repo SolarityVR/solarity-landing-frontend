@@ -8,6 +8,8 @@ import Concept3 from "../../../assets/images/concept3.png";
 import Concept4 from "../../../assets/images/concept4.png";
 import SideImg from "../../../assets/images/sideImg.png";
 
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
 export const Concepts = () => {
   return (
     <>
@@ -17,15 +19,19 @@ export const Concepts = () => {
             </div>
             <div className="my-5 relative">
                 <div className="absolute w-[300px] h-[400px] -top-[160px] -left-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
-                <div className="text-center sm:text-left">
-                    <span className="text-white text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What is <label className="text-lightprimary">Solarity?</label></span>
-                </div>
+                    <div className="text-center sm:text-left">
+                        <AnimationOnScroll animateIn="animate__fade">
+                            <span className="text-white text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What is <label className="text-lightprimary">Solarity?</label></span>
+                        </AnimationOnScroll>
+                    </div>
             </div>
-            <div className="my-15 mt-[36px] grid grid-cols-5">
-                <div className="col-span-5 text-center sm:col-span-4 sm:text-left">
-                    <span className="text-content text-[14px] sm:text-[22px]">Solarity is an autopoietic modular metaverse that consists of many applications built on top of a new standard of crypto-economic systems to accelerate blockchain adoption by increasing productivity and efficiency for any kind of organization and to assist builders embarking on the web3 journey.</span>
+            <AnimationOnScroll animateIn="animate__fade">
+                <div className="my-15 mt-[36px] grid grid-cols-5">
+                    <div className="col-span-5 text-center sm:col-span-4 sm:text-left">
+                        <span className="text-content text-[14px] sm:text-[22px]">Solarity is an autopoietic modular metaverse that consists of many applications built on top of a new standard of crypto-economic systems to accelerate blockchain adoption by increasing productivity and efficiency for any kind of organization and to assist builders embarking on the web3 journey.</span>
+                    </div>
                 </div>
-            </div>
+            </AnimationOnScroll>
             <div className="my-15 mt-[100px] grid grid-cols-5">
                 <div className="col-span-5 text-left lg:col-span-4 pr-[20px]">
                     <div className="grid grid-cols-1 sm:grid-cols-2">

@@ -19,7 +19,7 @@ export const CardSlider = () => {
         <div className="rounded-2xl bg-gradient-linear p-[24px] min-h-[308px] relative">
             {Users.map((user, index) => 
                 {
-                    return (<div className={(index != curId?"slider-inactive":"slider-active")}>
+                    return (<div key={index} className={(index != curId?"slider-inactive":"slider-active")}>
                         <div className="grid grid-cols-3">
                             <div>
                                 <div className="mb-5"><Image src={user.image} className="rounded"></Image></div>
