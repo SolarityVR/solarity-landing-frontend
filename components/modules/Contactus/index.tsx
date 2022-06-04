@@ -12,16 +12,16 @@ export const ContactUs = () => {
     <>
         <div className="mt-[50px] sm:mt-[100px] relative w-[100%] px-9 py-1 contact-us">
             <div className="hidden sm:block absolute right-0 top-0">
-              <Image src={Ball1}></Image>
+              <Image src={Ball1} className="rounded-[14px]"></Image>
             </div>
             <div className="hidden sm:flex absolute right-0 bottom-0">
-              <Image src={Ball2}></Image>
+              <Image src={Ball2} className="rounded-[14px]"></Image>
             </div>
             <div className="flex sm:hidden absolute right-0 bottom-0">
-              <Image src={MobBall1}></Image>
+              <Image src={MobBall1} className="rounded-[14px]"></Image>
             </div>
             <div className="flex sm:hidden absolute left-0 bottom-0">
-              <Image src={MobBall2}></Image>
+              <Image src={MobBall2} className="rounded-[14px]"></Image>
             </div>
             <div className="mt-[64px] mb-[14px] relative">
                 <div className="absolute w-[300px] h-[350px] -top-[150px] -left-[150px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
