@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 type Props = {
   children: React.ReactNode;
@@ -7,9 +8,10 @@ type Props = {
 
 export default function Layout(props: Props) {
   return (
-    <div className="w-full p-0">
+    <div className="p-0 mobile-galaxy">
       <NavBar />
       {props.children}
+      <Footer />
     </div>
   );
 }

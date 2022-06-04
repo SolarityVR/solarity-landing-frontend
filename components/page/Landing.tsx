@@ -1,5 +1,13 @@
 import Head from "next/head";
+import { Advantage } from "../modules/Advantage";
 import { Banner } from "../modules/Banner";
+import { Concepts } from "../modules/Concepts";
+import { DeepLook } from "../modules/DeepLook";
+import { FunctionalMap } from "../modules/FunctionalMap";
+import { VideoPlayer } from "../modules/VideoPlayer";
+import { LoveSolarity } from "../modules/LoveSolarity";
+import { Faq } from "../modules/Faq";
+import { ContactUs } from "../modules/Contactus";
 
 export default function Landing() {
   return (
@@ -9,8 +17,16 @@ export default function Landing() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" max-w-[93rem] mx-auto flex-1 px-11">
+      <main className="max-w-[93rem] mx-auto flex-1 px-5 sm:px-11">
         <Banner />
+        <Concepts />
+        <FunctionalMap />
+        <DeepLook />
+        <VideoPlayer />
+        <Advantage />
+        <LoveSolarity />
+        <Faq />
+        <ContactUs />
       </main>
     </div>
   );

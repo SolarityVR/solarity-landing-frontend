@@ -11,9 +11,9 @@ body {
 }
 
 ::-webkit-scrollbar { width: 9px; height: 1px;}
-::-webkit-scrollbar-button {  background-color: var(--primary-color); }
+::-webkit-scrollbar-button {  background-color: transparent; height: 0; }
 ::-webkit-scrollbar-track-piece { background-color: rgba(0,0,0,0.0);}
-::-webkit-scrollbar-thumb { background-color: var(--primary-color); border-radius: 5px;}
+::-webkit-scrollbar-thumb { background: rgb(41, 176, 128, 0.8); border-radius: 15px;}
 ::-webkit-scrollbar-corner { background-color: rgba(0, 0, 0, 0.1);}
 ::-webkit-resizer { background-color: var(--primary-color);}
 

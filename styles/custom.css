@@ -2,3 +2,93 @@
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
 }
+.react-player {
+    box-shadow: rgb(41, 176, 128, 0.45) 0px 0px 70px 4px;
+    
+}
+.left-arrow {
+    display: block;
+    width: 15px;
+    left: 64.58%;
+    height: 15px;
+    right: -22.92%;
+    top: 20.83%;
+    bottom: 50%;
+    border-left: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    transform: rotate(45deg);
+    float: left;
+}
+.right-arrow {
+    display: block;
+    width: 15px;
+    left: 64.58%;
+    height: 15px;
+    right: -22.92%;
+    top: 20.83%;
+    bottom: 50%;
+    border-right: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+    transform: rotate(45deg);
+    float: right;
+}
+.slider-dot-active {
+    display: inline-block;
+    background-color: #66DEC7;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+.slider-dot {
+    display: inline-block;
+    background-color: #404040;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+.slider-inactive {
+    /* height: 0; */
+    position: absolute;
+    transition: opacity 1s;
+    opacity: 0;
+}
+.slider-active {
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.slide-anim {
+    animation: bounce 0.5s;
+    z-index: -5;
+}
+.contact-us {
+    background-image: url(../assets/images/contact-us.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer {
+    background-image: url(../assets/images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    100% {
+        transform: translateY(0%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+}
+@media (max-width: 475px) {
+    .mobile-galaxy {
+        width: 100vh;
+    }
+}

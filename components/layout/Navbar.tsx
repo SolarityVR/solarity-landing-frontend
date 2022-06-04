@@ -12,14 +12,14 @@ const Navbar = () => {
     //   navbar goes here
     <>
       <nav className="bg-black/10 ">
-        <div className="max-w-[93rem] mx-auto h-24px px-11 py-4">
+        <div className="max-w-[93rem] mx-auto h-24px px-3 sm:px-11 py-4">
           <div className="flex justify-between">
             <div className="flex space-x-4">
               {/* logo */}
               <div>
                 <a href="/" className="flex items-center py-3 px-2 text-white">
                   <Image src={Logo}></Image>
-                  <span className="font-bold text-3xl px-2 tracking-widest uppercase">Solarity</span>
+                  <span className="font-bold text-[20px] sm:text-3xl px-2 tracking-widest uppercase">Solarity</span>
                 </a>
               </div>
             </div>
@@ -41,9 +41,9 @@ const Navbar = () => {
             <div className="md:hidden flex items-center">
               <button onClick={() => setMenuToggle(!menuToggle)}>
                 {menuToggle ? (
-                  <XIcon className="w-8 h-8 text-white text-xl" />
+                  <XIcon className="w-6 h-6 text-white text-[12px]" />
                 ) : (
-                  <MenuIcon className="w-8 h-8 text-white text-xl" />
+                  <MenuIcon className="w-6 h-6 text-white text-[12px]" />
                 )}
               </button>
             </div>
@@ -51,14 +51,14 @@ const Navbar = () => {
         </div>
 
         {/* mobile menu items */}
-        <div className={`${!menuToggle ? "hidden" : ""} md:hidden absolute`}>
-          <a href="#" className="py-5 px-4 text-white hover:text-primary block">
+        <div className={`${!menuToggle ? "hidden" : ""} md:hidden absolute bg-black/80 w-[100%] z-10`}>
+          <a href="#" className="py-5 px-6 text-white hover:text-primary block">
             Discord
           </a>
-          <a href="#" className="py-5 px-4 text-white hover:text-primary block">
+          <a href="#" className="py-5 px-6 text-white hover:text-primary block">
             Medium
           </a>
-          <a href="#" className="py-5 px-4 text-white hover:text-primary block">
+          <a href="#" className="py-5 px-6 text-white hover:text-primary block">
             Twitter
           </a>
         </div>
