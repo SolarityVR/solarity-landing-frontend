@@ -165,6 +165,18 @@
 .function-mobile .function-card:hover {
     box-shadow: rgba(94, 218, 174, 0.2) 0px 2px 4px 0px, rgba(94, 218, 174, 0.2) 0px 2px 16px 0px;    
 }
+.player-wrapper {
+    width: auto;
+    height: auto;
+}
+.react-player {
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.react-player > div {
+    position: absolute;
+}
 @keyframes fluid {
     0%, 99% {
       border-radius: 30% 70% 66% 34% / 30% 30% 70% 70%;
