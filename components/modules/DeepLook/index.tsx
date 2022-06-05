@@ -19,7 +19,7 @@ export const DeepLook = () => {
   return (
     <>
         <div className="mt-[10px] relative" >
-            <div className="absolute -top-[140px] -right-[43px] w-[230px] sm:-top-[350px] sm:-right-[100px] sm:w-[500px]">
+            <div className="absolute -top-[140px] -right-[43px] w-[230px] sm:-top-[350px] sm:-right-[100px] sm:w-[500px] -z-10">
                 <Image src={SideImg2}></Image>
             </div>
             <div className="my-5 relative">

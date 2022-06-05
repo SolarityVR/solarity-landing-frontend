@@ -79,6 +79,86 @@
 .custom-animation-bounce {
     animation: bounce1 4s infinite ease-out;
 }
+.function-desktop .function-card-caption {
+    color: rgba(102, 222, 199, 1);
+    font-size: 1.3vw;
+}
+.function-desktop .function-card {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 6.7vw;
+    height: 6.7vw;
+    background-image: linear-gradient(92.76deg, #66DEC7 2%, rgba(0, 0, 0, 0) 129.73%);
+    line-height:30px;
+    text-align: center;
+    color: #485564;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index:100;
+    padding: 2vw;
+    margin-bottom: 1.2vw;
+    box-shadow: rgba(94, 218, 174, 0.1) 0px 2px 59px 17px, rgba(94, 218, 174, 0.1) 0px 2px 16px 0px; 
+}
+
+.function-desktop .function-card:before {
+    content: '';
+    position: absolute;
+    /* specify the value of border width here */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    /* --- */
+    background: #151515;
+    border-radius: 8px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.function-desktop .function-card:hover {
+    box-shadow: rgba(94, 218, 174, 0.2) 0px 2px 4px 0px, rgba(94, 218, 174, 0.2) 0px 2px 16px 0px;    
+}
+
+.function-mobile .function-card-caption {
+    color: rgba(102, 222, 199, 1);
+    font-size: 2.8vw;
+    line-height: 3vw;
+}
+.function-mobile .function-card {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 15vw;
+    height: 15vw;
+    background-image: linear-gradient(92.76deg, #66DEC7 2%, rgba(0, 0, 0, 0) 129.73%);
+    line-height:30px;
+    text-align: center;
+    color: #485564;
+    border-radius: 13px;
+    overflow: hidden;
+    z-index:100;
+    padding: 4vw;
+    margin-bottom: 1.2vw;
+    box-shadow: rgba(94, 218, 174, 0.1) 0px 2px 59px 17px, rgba(94, 218, 174, 0.1) 0px 2px 16px 0px; 
+}
+
+.function-mobile .function-card:before {
+    content: '';
+    position: absolute;
+    /* specify the value of border width here */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    /* --- */
+    background: #151515;
+    border-radius: 13px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.function-mobile .function-card:hover {
+    box-shadow: rgba(94, 218, 174, 0.2) 0px 2px 4px 0px, rgba(94, 218, 174, 0.2) 0px 2px 16px 0px;    
+}
 @keyframes fluid {
     0%, 99% {
       border-radius: 30% 70% 66% 34% / 30% 30% 70% 70%;
