@@ -1,5 +1,5 @@
 import React from "react";
-import ReactPlayer from "react-player/youtube";
+import ReactPlayer from "react-player/lazy";
 
 export const VideoPlayer = () => {
   return (
@@ -8,7 +8,9 @@ export const VideoPlayer = () => {
             <ReactPlayer
                 controls = {true}
                 className='react-player fixed-bottom'
-                url='https://youtu.be/s3ktYTdV6gw'
+                width="100%"
+                height="100%"
+                url='/demo.mp4'
             />
         </div>
     </>

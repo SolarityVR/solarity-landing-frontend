@@ -15,7 +15,7 @@ export const Concepts = () => {
     <>
         <div className="mt-[100px] relative" >
             <div className="absolute top-[200px] -right-[43px] w-[230px] sm:bottom-0 sm:-right-[100px] sm:w-[420px]">
-                <Image src={SideImg}></Image>
+                <Image src={SideImg} className="custom-animation-bounce-2"></Image>
             </div>
             <div className="my-5 relative">
                 <div className="absolute w-[300px] h-[400px] -top-[160px] -left-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
@@ -49,8 +49,6 @@ export const Concepts = () => {
                             <ConceptCard image={Concept4} title="Compose" description="Have complete freedom in mixing ingredients to create new components for the systems of the future, welcome to the exponential age." />
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>

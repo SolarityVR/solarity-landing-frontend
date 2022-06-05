@@ -79,6 +79,12 @@
 .custom-animation-bounce {
     animation: bounce1 4s infinite ease-out;
 }
+.custom-animation-bounce-2 {
+    animation: bounce1 5s infinite ease-out;
+}
+.custom-animation-bounce-3 {
+    animation: bounce1 3s infinite ease-out;
+}
 .function-desktop .function-card-caption {
     color: rgba(102, 222, 199, 1);
     font-size: 1.3vw;

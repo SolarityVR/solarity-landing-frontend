@@ -15,7 +15,7 @@ export const Advantage = () => {
     <>
         <div className="mt-[100px] relative" >
             <div className="absolute w-[150px] -top-[50px] -left-[100px] sm:-top-[0px] sm:w-[420px]">
-                <Image src={SideLeft}></Image>
+                <Image src={SideLeft} className="custom-animation-bounce-2"></Image>
             </div>
             <div className="my-5 relative">
                 <div className="absolute w-[300px] sm:w-[300px] h-[400px] -top-[160px] -right-[0px] sm:-right-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>

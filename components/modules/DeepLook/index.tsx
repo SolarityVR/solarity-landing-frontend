@@ -20,7 +20,7 @@ export const DeepLook = () => {
     <>
         <div className="mt-[10px] relative" >
             <div className="absolute -top-[140px] -right-[43px] w-[230px] sm:-top-[350px] sm:-right-[100px] sm:w-[500px] -z-10">
-                <Image src={SideImg2}></Image>
+                <Image src={SideImg2} className="custom-animation-bounce-3"></Image>
             </div>
             <div className="my-5 relative">
                 <div className="absolute w-[500px] h-[500px] -top-[40px] -left-[190px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
