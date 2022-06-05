@@ -170,12 +170,14 @@
     height: auto;
 }
 .react-player {
+    width: 100% !important;
     padding-top: 56.25%;
     position: relative;
 }
 
 .react-player > div {
     position: absolute;
+    top:0;
 }
 @keyframes fluid {
     0%, 99% {
