@@ -4,7 +4,7 @@ import ReactPlayer from "react-player/youtube";
 export const VideoPlayer = () => {
   return (
     <>
-        <div className="p-[20px] sm:p-[100px] relative">
+        <div className="p-[20px] sm:p-[100px] relative react-player-wrapper">
             <ReactPlayer
                 controls = {true}
                 className='react-player fixed-bottom'
