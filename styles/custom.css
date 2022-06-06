@@ -166,18 +166,12 @@
     box-shadow: rgba(94, 218, 174, 0.2) 0px 2px 4px 0px, rgba(94, 218, 174, 0.2) 0px 2px 16px 0px;    
 }
 .react-player-wrapper {
-    padding-top: 56.25%;
-}
-.player-wrapper {
     width: auto;
     height: auto;
 }
 .react-player {
-    width: 100% !important;
-    height: calc(100% - 20px) !important;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding-top: 56.25%;
+    position: relative;
 }
 
 .react-player > div {
