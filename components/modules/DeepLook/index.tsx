@@ -37,7 +37,7 @@ export const DeepLook = () => {
                     </AnimationOnScroll>
                 </div>
             </div>
-            <div className="my-15 mt-[100px]">
+            <div className="my-15 mt-[100px] mb-[5px] sm:mb-[50px]">
                 <div className="py-5">
                     <DeepLookCard image={Deep1} logo={Logo1} title="Metaverse Assistant" description="A revolutionary wallet platform for metaverse wanderers with a native navigator to quickly switch from dao to dao, redesigned to leave ponzi crypto behind and embrace solar punk web3" direction={true} ></DeepLookCard>
                 </div>
