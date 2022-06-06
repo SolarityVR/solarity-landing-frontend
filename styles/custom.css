@@ -170,6 +170,8 @@
     height: auto;
 }
 .react-player {
+    width: 100% !important;
+    height: 100% !important;
     padding-top: 56.25%;
     position: relative;
 }
