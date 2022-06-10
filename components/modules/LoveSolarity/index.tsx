@@ -17,12 +17,12 @@ export const LoveSolarity = () => {
                 <div className="absolute w-[300px] h-[400px] -top-[160px] -right-[0px] sm:-right-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="hidden sm:block absolute w-[300px] h-[400px] -top-[100px] -left-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="text-center">
-                    <AnimationOnScroll animateIn="animate__fade">
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
                         <span className="text-white text-center text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]"><label className="text-lightprimary">People love </label>using Solarity</span>
                     </AnimationOnScroll>
                 </div>
             </div>
-            <AnimationOnScroll animateIn="animate__fade">
+            <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
                 <div className="my-15 mt-[100px] grid grid-cols-3">
                     <div className="col-span-3 lg:hidden">
                         <CardSlider  />

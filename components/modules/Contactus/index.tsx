@@ -30,7 +30,7 @@ export const ContactUs = () => {
                 </div>
             </div>
             <div className="my-[25px] w-[100%] sm:w-[75%]">
-                <p className="text-white text-[14px] sm:text-[22px] text-content text-center sm:text-left">If you&apos;re interested in building the next layer of complexity, reach out to <label className="text-lightprimary">team@solarity.xyz</label>, we&apos;re engineers-only founders looking for other motivated members of society that refuse to give up on humanity.</p>
+                <p className="text-white text-[14px] sm:text-[22px] text-content text-center sm:text-left">If you&apos;re interested in building the next layer of complexity, reach out to <label className="text-lightprimary font-bold">team@solarity.xyz</label>, we&apos;re engineers-only founders looking for other motivated members of society that refuse to give up on humanity.</p>
             </div>
             <div className="mt-[55px] mb-[200px] sm:mb-[50px] w-[100%] sm:w-[35%] md:w-[25%]">
                 <Button caption="Get in touch" icon="" bordered={false}></Button>

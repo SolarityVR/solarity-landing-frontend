@@ -20,7 +20,7 @@ export const Advantage = () => {
             <div className="my-5 relative">
                 <div className="absolute w-[300px] sm:w-[300px] h-[400px] -top-[160px] -right-[0px] sm:-right-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="text-center">
-                    <AnimationOnScroll animateIn="animate__fade">
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
                         <span className="text-white text-center text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What are our <label className="text-lightprimary">advantages?</label></span>
                     </AnimationOnScroll>
                 </div>
@@ -33,16 +33,16 @@ export const Advantage = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2">
                         
                         <div className="mb-14 sm:pr-[8rem] mb-14">
-                            <AdvantageCard image={Ad1} title={(<><span className="text-primary">Build</span> the metaverse</>)} description="Starting to build the metaverse by innovating its economic infrastructure through academic-grade daos engineered to be magnetically self-organizing to compose the new global organizational mesh" />
+                            <AdvantageCard image={Ad1} title={(<><span className="text-lightprimary">Build</span> the metaverse</>)} description="Starting to build the metaverse by innovating its economic infrastructure through academic-grade daos engineered to be magnetically self-organizing to compose the new global organizational mesh" />
                         </div>
                         <div className="pr-[1rem] sm:pr-[8rem] mb-14">
-                            <AdvantageCard image={Ad2} title={(<><span className="text-primary">Express</span> yourself</>)} description="We have developed the most complete and efficient way to express any kind of organization and to directly govern programs associated with them, it would be a waste not to share this with the rest of humanity" />
+                            <AdvantageCard image={Ad2} title={(<><span className="text-lightprimary">Express</span> yourself</>)} description="We have developed the most complete and efficient way to express any kind of organization and to directly govern programs associated with them, it would be a waste not to share this with the rest of humanity" />
                         </div>
                         <div className="pr-[1rem] sm:pr-[8rem] mb-14 relative">
-                            <AdvantageCard image={Ad3} title={(<><span className="text-primary">Expand</span> the world</>)} description="Our standard for virtual worlds enable both scarcity and abundance by natively integrating a fully democratic way to expand the world, therefore a coordinated way to bring abundance to the ecosystem, when needed, in a decentralized algorithmical way." />
+                            <AdvantageCard image={Ad3} title={(<><span className="text-lightprimary">Expand</span> the world</>)} description="Our standard for virtual worlds enable both scarcity and abundance by natively integrating a fully democratic way to expand the world, therefore a coordinated way to bring abundance to the ecosystem, when needed, in a decentralized algorithmical way." />
                         </div>
                         <div className="pr-[1rem] sm:pr-[8rem] mb-14">
-                            <AdvantageCard image={Ad4} title={(<><span className="text-primary">Improve</span> the process</>)} description="Web2 is awesome, it only misses a value layer, we&apos;re adding it" />
+                            <AdvantageCard image={Ad4} title={(<><span className="text-lightprimary">Improve</span> the process</>)} description="Web2 is awesome, it only misses a value layer, we&apos;re adding it" />
                         </div>
                     </div>
 

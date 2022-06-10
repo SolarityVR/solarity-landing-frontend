@@ -12,7 +12,7 @@ export interface ConceptCardProps {
 export const ConceptCard = (props: ConceptCardProps) => {
   return (
     <>
-      <AnimationOnScroll animateIn="animate__fadeIn">
+      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
         <div>
             <Image src={props.image} width={80} height={80} className="!p-[22px] mb-5 bg-gradient-radial"></Image>
             <p className="pl-[15px] text-white text-[18px] sm:text-[30px] mb-5 font-semibold tracking-wider">{props.title}</p>

@@ -12,7 +12,7 @@ export interface FunctionCardProps {
 export const FunctionCard = (props: FunctionCardProps) => {
   return (
     <>
-        {/* <AnimationOnScroll animateIn="animate__fade"> */}
+        {/* <AnimationOnScroll animateOnce={true} animateIn="animate__fade"> */}
         <div className={"function-card block" + props.padding}>
             <Image src={props.image} ></Image>
         </div>

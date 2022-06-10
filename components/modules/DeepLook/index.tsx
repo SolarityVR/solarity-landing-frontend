@@ -25,14 +25,14 @@ export const DeepLook = () => {
             <div className="my-5 relative">
                 <div className="absolute w-[500px] h-[500px] -top-[40px] -left-[190px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="text-center sm:text-left">
-                    <AnimationOnScroll animateIn="animate__fade">
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
                         <span className="text-white text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">Let&apos;s look deeper</span>
                     </AnimationOnScroll>
                 </div>
             </div>
             <div className="my-15 mt-[36px] grid grid-cols-5">
                 <div className="col-span-5 text-center sm:col-span-4 sm:text-left">
-                    <AnimationOnScroll animateIn="animate__fade">
+                    <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
                         <span className="text-content text-[14px] sm:text-[22px]">Lorem ipsum dolor sit amet, consectetur<br></br> adipiscing elit, sed do eiusmod tempor incididunt.</span>
                     </AnimationOnScroll>
                 </div>

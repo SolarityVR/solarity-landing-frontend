@@ -20,11 +20,11 @@ export const CardSlider = () => {
             {Users.map((user, index) => 
                 {
                     return (<div key={index} className={(index != curId?"slider-inactive":"slider-active")}>
-                        <div className="grid grid-cols-3">
-                            <div>
+                        <div className="">
+                            <div className="inline-block">
                                 <div className="mb-5"><Image src={user.image} className="rounded"></Image></div>
                             </div>
-                            <div className="col-span-2">
+                            <div className="align-text-bottom inline-block ml-4 mt-1">
                                 <p className="text-white text-[18px] sm:text-[20px] mb-2 font-semibold tracking-wider">{user.title}</p>
                                 <p className="text-white text-[14px] sm:text-[16px] mb-2 tracking-wider">{user.address}</p>
                             </div>

@@ -16,11 +16,11 @@ import { FunctionCard } from "./FunctionCard";
 export const FunctionalMap = () => {
   return (
     <>
-      <AnimationOnScroll animateIn="animate__fadeIn">
+      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
         <div className="relative hidden sm:block text-center function-desktop">
           <div className="grid grid-cols-5 mt-[80px] mb-[150px]">
             <div className="relative">
-              <div className="absolute top-0 left-0 right-0 text-center"><FunctionCard image={FunctionImg1} title="NFT minting UI" padding="" /></div>
+              <div className="absolute top-0 left-0 right-0 text-center"><FunctionCard image={FunctionImg1} title="NFT minting UI" padding=""  /></div>
               <div className="absolute top-[38%] left-0 right-0 text-center"><FunctionCard image={FunctionImg2} title="DAO provider" padding=" !py-[2vw] !px-[1.5vw] " /></div>
               <div className="absolute bottom-0 left-0 right-0 text-center"><FunctionCard image={FunctionImg3} title={(<><span>Make any website</span><p>web3 and 3D</p></>)} padding=" !py-[2vw] !px-[1.9vw] " /></div>
             </div>
