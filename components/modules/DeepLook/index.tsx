@@ -7,9 +7,10 @@ import Logo2 from "../../../assets/images/dl2.png";
 import Logo3 from "../../../assets/images/dl3.png";
 import Logo4 from "../../../assets/images/dl4.png";
 
-import Deep1 from "../../../assets/images/deep1.png";
-import Deep2 from "../../../assets/images/deep2.png";
-import Deep3 from "../../../assets/images/deep3.png";
+import Deep1 from "../../../assets/images/metaverse-assistant.png";
+import Deep2 from "../../../assets/images/fractal-daos.png";
+import Deep3 from "../../../assets/images/metaverse-windows.png";
+import Deep4 from "../../../assets/images/xnfts.png";
 
 import { DeepLookCard } from "./DeepLookCard";
 
@@ -50,7 +51,7 @@ export const DeepLook = () => {
                     <DeepLookCard image={Deep3} logo={Logo3} title="Metaverse Windows" description="The real metaverse will be browser based, it&apos;ll be powered by cloud computing to remove hardware bottlenecks for creators and to let consumers have the highest possible quality experience without the need for expensive computers, for these reasons we&apos;ve been pioneering WebXR Verses to let anyone be part of the Metaverse without the need for inexplicably expensive virtual land." direction={true} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
-                    <DeepLookCard image={Deep1} logo={Logo4} title="xNFTs" description="Enjoy pseudonymous identities to maximize creative freedom and be judged by the content of your character and your ideas thanks to our Metaverse Passport that will unlock a whole new layer of content that will live on top of it, one NFT to “role” them all." direction={false} ></DeepLookCard>
+                    <DeepLookCard image={Deep4} logo={Logo4} title="xNFTs" description="Enjoy pseudonymous identities to maximize creative freedom and be judged by the content of your character and your ideas thanks to our Metaverse Passport that will unlock a whole new layer of content that will live on top of it, one NFT to “role” them all." direction={false} ></DeepLookCard>
                 </div>
             </div>
         </div>
