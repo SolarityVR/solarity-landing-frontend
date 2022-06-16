@@ -7,6 +7,7 @@
     --lightprimary-color: #5edaae;
     --secondary-color: #fff;
     --footer-color: #9b9b9b;
+    --darkcontent-color: rgba(129, 136, 146, 1);
     --gradient-color-stops: rgb(27, 168, 116, 0.3) 0%, transparent 70%;
     --light-gradient-color-stops: rgb(27, 168, 116, 0.1) 0%, transparent 70%;
     --gradient-linear-stops: rgba(28, 28, 28, 1) 0%, #141414 100%;

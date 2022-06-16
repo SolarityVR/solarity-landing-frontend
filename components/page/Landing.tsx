@@ -8,6 +8,7 @@ import { VideoPlayer } from "../modules/VideoPlayer";
 import { LoveSolarity } from "../modules/LoveSolarity";
 import { Faq } from "../modules/Faq";
 import { ContactUs } from "../modules/Contactus";
+import { MultiPlatform } from "../modules/MultiPlatform";
 
 export default function Landing() {
   return (
@@ -19,6 +20,7 @@ export default function Landing() {
         <DeepLook />
         <VideoPlayer />
         <Advantage />
+        <MultiPlatform />
         <LoveSolarity />
         <Faq />
         <ContactUs />

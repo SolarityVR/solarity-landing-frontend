@@ -10,6 +10,7 @@ module.exports = {
         current: 'currentColor',
         'white': '#fff',
         'black': '#000',
+        'darkcontent': 'var(--darkcontent-color)',
         'primary': 'var(--primary-color)',
         'lightprimary': 'var(--lightprimary-color)',
         'secondary': 'var(--secondary-color)',
