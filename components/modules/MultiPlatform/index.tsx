@@ -8,7 +8,7 @@ import deviceImg from "../../../assets/images/device.png";
 export const MultiPlatform = () => {
   return (
     <>
-        <div className="my-[0px] sm:my-[100px] relative" >
+        <div className="my-[0px] sm:my-[120px] relative" >
             <div className="my-5 relative">
                 <div className="absolute w-[300px] h-[400px] -top-[160px] -right-[0px] sm:-right-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="hidden sm:block absolute w-[300px] h-[400px] -top-[100px] -left-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>

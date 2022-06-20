@@ -26,13 +26,13 @@ const Navbar = () => {
 
             {/* secondary nav */}
             <div className="hidden md:flex items-center space-x-1">
-              <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
+              <a href="#" className="py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                 Discord
               </a>
-              <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
+              <a href="https://solarityvr.medium.com/" className="py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                 Medium
               </a>
-              <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
+              <a href="https://twitter.com/Solarity_VR" className="py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                 Twitter
               </a>
             </div>

@@ -16,11 +16,11 @@ export default function Landing() {
       <main className="max-w-[93rem] mx-auto flex-1 px-5 sm:px-11">
         <Banner />
         <Concepts />
+        <MultiPlatform />
         <FunctionalMap />
         <DeepLook />
         <VideoPlayer />
         <Advantage />
-        <MultiPlatform />
         <LoveSolarity />
         <Faq />
         <ContactUs />

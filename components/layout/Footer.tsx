@@ -29,13 +29,13 @@ export default function Footer() {
 
                 {/* secondary nav */}
                 <div className="items-center space-x-1 pt-1 pb-1">
-                <a href="#" className="inline-flex py-5 px-3.5 text-white hover:text-primary">
+                <a href="#" className="inline-flex py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                     <Image src={Discord} width={32} height={25} />
                 </a>
-                <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
+                <a href="https://solarityvr.medium.com/" className="py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                     <Image src={Medium} width={32} height={25} />
                 </a>
-                <a href="#" className="py-5 px-3.5 text-white hover:text-primary">
+                <a href="https://twitter.com/Solarity_VR" className="py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                     <Image src={Twitter} width={32} height={25} />
                 </a>
                 </div>
