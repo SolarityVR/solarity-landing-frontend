@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import deviceImg from "../../../assets/images/device.png";
+import deviceImg from "../../../assets/images/vr.png";
 
 export const MultiPlatform = () => {
   return (

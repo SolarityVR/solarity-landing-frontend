@@ -34,7 +34,7 @@ export const DeepLook = () => {
             <div className="my-15 mt-[36px] grid grid-cols-5">
                 <div className="col-span-5 text-center sm:col-span-4 sm:text-left">
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
-                        <span className="text-content text-[14px] sm:text-[22px]">Lorem ipsum dolor sit amet, consectetur<br></br> adipiscing elit, sed do eiusmod tempor incididunt.</span>
+                        <span className="text-content text-[14px] sm:text-[22px]">Discover our products and learn<br></br>  about the new metaverse standards.</span>
                     </AnimationOnScroll>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export const DeepLook = () => {
                     <DeepLookCard image={Deep3} logo={Logo3} title="Metaverse Windows" description="The real metaverse will be browser based, it&apos;ll be powered by cloud computing to remove hardware bottlenecks for creators and to let consumers have the highest possible quality experience without the need for expensive computers, for these reasons we&apos;ve been pioneering WebXR Verses to let anyone be part of the Metaverse without the need for inexplicably expensive virtual land." direction={true} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
-                    <DeepLookCard image={Deep4} logo={Logo4} title="xNFTs" description="Enjoy pseudonymous identities to maximize creative freedom and be judged by the content of your character and your ideas thanks to our Metaverse Passport that will unlock a whole new layer of content that will live on top of it, one NFT to “role” them all." direction={false} ></DeepLookCard>
+                    <DeepLookCard image={Deep4} logo={Logo4} title="iNFTs" description="Enjoy pseudonymous identities to maximize creative freedom and be judged by the content of your character and your ideas thanks to our Metaverse Passport that will unlock a whole new layer of content that will live on top of it, one NFT to “role” them all." direction={false} ></DeepLookCard>
                 </div>
             </div>
         </div>
