@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logoz.png";
 
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
