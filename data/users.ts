@@ -1,6 +1,6 @@
-import User1 from "../assets/images/user1.png";
-import User2 from "../assets/images/user2.png";
-import User3 from "../assets/images/user3.png";
+import User1 from "../assets/images/user11.png";
+import User2 from "../assets/images/user22.png";
+import User3 from "../assets/images/user33.png";
 
 export interface User {
     title: string;
@@ -11,22 +11,22 @@ export interface User {
 
 export const Users: User[] = [
     {
-        title: "Utpal Mikolsky",
-        address: "@itydjhhh32",
+        title: "MoneyBoy0x •$•",
+        address: "@MoneyBoy0x",
         image: User1,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     },
     {
-        title: "Tom Harvey",
-        address: "@itydjhhh32",
+        title: "Kuleen ◎",
+        address: "@knimkar",
         image: User2,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        description: "These guys work hard, tinker a lot and never cease to amaze me on how much they work. Can't wait for the future."
     },
     {
-        title: "Utpal Mikolsky",
-        address: "@itydjhhh32",
+        title: "Dirkk0",
+        address: "@Dirkk0",
         image: User3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        description: "WebXR is the essence of an open and composable metaverse. And Solarity is building the infrastructure for it."
     },
 ]
   
