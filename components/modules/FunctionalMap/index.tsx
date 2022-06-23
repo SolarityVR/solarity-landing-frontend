@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-import FunctionMap from "../../../assets/images/map-desktop.png";
-import FunctionMapMobile from "../../../assets/images/map-phone.png";
+import FunctionMap from "../../../assets/images/map-desktop.webp";
+import FunctionMapMobile from "../../../assets/images/map-phone.webp";
 import FunctionImg1 from "../../../assets/images/function1.png";
 import FunctionImg2 from "../../../assets/images/function2.png";
 import FunctionImg3 from "../../../assets/images/function3.png";
