@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import deviceImg from "../../../assets/images/vr.png";
+import deviceImg from "../../../assets/images/vr.webp";
 
 export const MultiPlatform = () => {
   return (
