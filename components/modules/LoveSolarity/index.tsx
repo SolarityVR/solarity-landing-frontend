@@ -3,9 +3,9 @@ import Image from "next/image";
 
 import { CardLover } from "./CardLover";
 import { CardSlider } from "./CardSlider";
-import User1 from "../../../assets/images/user1.png";
-import User2 from "../../../assets/images/user2.png";
-import User3 from "../../../assets/images/user3.png";
+import User1 from "../../../assets/images/user11.png";
+import User2 from "../../../assets/images/user22.png";
+import User3 from "../../../assets/images/user33.png";
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -28,13 +28,13 @@ export const LoveSolarity = () => {
                         <CardSlider  />
                     </div>
                     <div className="hidden lg:block lg:col-span-1 pl-[30px]">
-                        <CardLover image={User1} title="Utpal Mikolsky" address="@itydjhhh32" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                        <CardLover image={User1} title="MoneyBoy0x •$•" address="@MoneyBoy0x" description="NFTs are not just PFP, they are the strongest communities I have been in, and Solarity is the home for them." />
                     </div>
                     <div className="hidden lg:block lg:col-span-1 pl-[30px]">
-                        <CardLover image={User2} title="Tom Harvey" address="@itydjhhh32" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                        <CardLover image={User2} title="Kuleen ◎" address="@knimkar" description="These guys work hard, tinker a lot and never cease to amaze me on how much they work. Can't wait for the future." />
                     </div>
                     <div className="hidden lg:block lg:col-span-1 pl-[30px]">
-                        <CardLover image={User3} title="Tom Harvey" address="@itydjhhh32" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." />
+                        <CardLover image={User3} title="Dirkk0" address="@dirkk0" description="WebXR is the essence of an open and composable metaverse. And Solarity is building the infrastructure for it." />
                     </div>
                 </div>
             </AnimationOnScroll>
