@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import BannerImg from "../../../assets/images/bannerImg.png";
+import BannerImg from "../../../assets/images/bannerImg.webp";
 
 export const BannerImage = () => {
   return (
