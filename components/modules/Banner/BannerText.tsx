@@ -1,8 +1,10 @@
 import React from "react";
 import Button from "../../common/Button";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { useRouter } from "next/router";
 
 export const BannerText = () => {
+  const router = useRouter();
   return (
     <>
         <div className="my-5 relative text-center sm:text-left">
@@ -16,8 +18,8 @@ export const BannerText = () => {
               <span className="text-content text-[14px] md:text-[22px]">Building, accelerating and powering <br /> the metaverse, one DAO at a time.</span>
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-3">
-              <div className="pr-5 mb-5"><Button caption="Explore" icon="" bordered={false} /></div>
-              <div className="pr-5 xl:pr-[30%] col-span-2"><Button caption="Download extension" icon="chrome" bordered={true} /></div>
+              <div className="pr-5 mb-5"><Button caption="Start App" icon="" bordered={false} onClick={() => router.push('https://solarity-stage.vercel.app')} /></div>
+              <div className="pr-5 xl:pr-[30%] col-span-2"><Button caption="Download extension" icon="chrome" bordered={true} onClick={() => router.push('https://chrome.google.com/webstore/detail/twitter-verse/olmkofkehgfecicmijdhohcgglpnbnnh')} /></div>
           </div>
         </AnimationOnScroll>
     </>
