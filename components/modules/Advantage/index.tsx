@@ -21,7 +21,7 @@ export const Advantage = () => {
                 <div className="absolute w-[300px] sm:w-[300px] h-[400px] -top-[160px] -right-[0px] sm:-right-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                 <div className="text-center">
                     <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
-                        <span className="text-white text-center text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What are our <label className="text-lightprimary">advantages?</label></span>
+                        <span className="text-white text-center text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What is Solarity&apos;s <label className="text-lightprimary">mesh?</label></span>
                     </AnimationOnScroll>
                 </div>
             </div>
