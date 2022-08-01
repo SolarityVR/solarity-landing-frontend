@@ -40,18 +40,18 @@ export const DeepLook = () => {
             </div>
             <div className="my-15 mt-[100px] mb-[5px] sm:mb-[50px]">
                 <div className="py-5">
-                    <DeepLookCard image={Deep1} logo={Logo1} title="Metaverse Assistant" description="A revolutionary wallet platform for metaverse wanderers with a native navigator to quickly switch from dao to dao, redesigned to leave ponzi crypto behind and embrace solar punk web3" direction={true} ></DeepLookCard>
+                    <DeepLookCard image={Deep1} logo={Logo1} title="Twitter Verse/Social Verses" description="Bring your games and experiences anywhere on the web, with one click! Add our extension, play the games you always loved, and start earning directly from Twitter. Looking for a game? Post your request as a Twitter post, and let users join there." direction={true} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
                     <div className="absolute w-[500px] h-[500px] -top-[40px] right-[250px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
-                    <DeepLookCard image={Deep2} logo={Logo2} title="Fractal DAOs" description="The complete suite to empower any organization with a native internet money layer, from futuristic 4th Industrial Revolution Deep Tech companies to Esports Teams to Decentralized Science Projects, allocating capital efficiently is the key to overcoming great filter existential risks." direction={false} ></DeepLookCard>
+                    <DeepLookCard image={Deep2} logo={Logo2} title="GameFi Aggregator" description="Your web3 games, in one place, with any account. Log in through a DID and start playing and earn more, more easily. Solving the visibility problem of web3 games by providing the library of games accessible anywhere with Quests rewarding system." direction={false} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
                     <div className="absolute w-[250px] sm:w-[500px] h-[500px] top-[40px] left-[250px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
-                    <DeepLookCard image={Deep3} logo={Logo3} title="Metaverse Windows" description="The real metaverse will be browser based, it&apos;ll be powered by cloud computing to remove hardware bottlenecks for creators and to let consumers have the highest possible quality experience without the need for expensive computers, for these reasons we&apos;ve been pioneering WebXR Verses to let anyone be part of the Metaverse without the need for inexplicably expensive virtual land." direction={true} ></DeepLookCard>
+                    <DeepLookCard image={Deep3} logo={Logo3} title="Flocks" description="Sociality and work are becoming more and more digital, and there is a high demand for immediate interaction and content. Create shared browsing sessions, watch a movie, play games, work and share any experiences with whoever you want, with just one click." direction={true} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
-                    <DeepLookCard image={Deep4} logo={Logo4} title="iNFTs" description="Enjoy pseudonymous identities to maximize creative freedom and be judged by the content of your character and your ideas thanks to our Metaverse Passport that will unlock a whole new layer of content that will live on top of it, one NFT to “role” them all." direction={false} ></DeepLookCard>
+                    <DeepLookCard image={Deep4} logo={Logo4} title="Experiences Engine" description="Building games should be as easy as editing a video, and as immediate as a youtube link. That is why through webXR we are powering creator tools available on any device that runs a browser with Remix functions so that anybody can customize even the most complex games." direction={false} ></DeepLookCard>
                 </div>
             </div>
         </div>
