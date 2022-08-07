@@ -40,7 +40,7 @@ export const DeepLook = () => {
             </div>
             <div className="my-15 mt-[100px] mb-[5px] sm:mb-[50px]">
                 <div className="py-5">
-                    <DeepLookCard image={Deep1} logo={Logo1} title="Twitter Verse/Social Verses" description="Bring your games and experiences anywhere on the web, with one click! Add our extension, play the games you always loved, and start earning directly from Twitter. Looking for a game? Post your request as a Twitter post, and let users join there." direction={true} ></DeepLookCard>
+                    <DeepLookCard image={Deep1} logo={Logo1} title="Twitter Verse" description="Bring your games and experiences anywhere on the web, with one click! Add our extension, play the games you always loved, and start earning directly from Twitter. Looking for a game? Post your request as a Twitter post, and let users join there." direction={true} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
                     <div className="absolute w-[500px] h-[500px] -top-[40px] right-[250px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
