@@ -22,7 +22,6 @@ export default function Landing() {
         <VideoPlayer />
         <Advantage />
         <LoveSolarity />
-        <Faq />
         <ContactUs />
       </main>
     </div>
