@@ -5,10 +5,14 @@
 :root {
     --primary-color: #29b080;
     --lightprimary-color: #5edaae;
+    --darkprimary-color: #005c3c;
     --secondary-color: #fff;
     --footer-color: #9b9b9b;
     --darkcontent-color: rgba(129, 136, 146, 1);
-    --gradient-color-stops: rgb(27, 168, 116, 0.3) 0%, transparent 70%;
+    --gradient-color-stops: rgb(27, 168, 116, 0.2) 0%, transparent 70%;
+    --gradient-redcolor-stops: #26202c 0%, transparent 70%;
+    --gradient-small1: 325.88deg, #ED54FB 14.78%, #22E9C9 104.05%;
+    --gradient-small2: 313.03deg, #29B080 28.02%, #020208 99.47%;
     --light-gradient-color-stops: rgb(27, 168, 116, 0.1) 0%, transparent 70%;
     --gradient-linear-stops: rgba(28, 28, 28, 1) 0%, #141414 100%;
 }

@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" ></meta>
+          <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'></link>
           <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
           <link rel="shortcut icon" href="/favicon.png"></link>
           <title>Solarity</title>
