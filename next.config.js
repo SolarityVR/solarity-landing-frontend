@@ -4,6 +4,6 @@ module.exports = {
         formats: ['image/webp'],
         domains: [
           'res.cloudinary.com'
-        ],
+        ]
     },
 }
