@@ -17,11 +17,11 @@ export const BannerText = () => {
               </div>
             </AnimationOnScroll>
         </div>
-        <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
+        <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn" >
           <div className="my-5 mb-[56px] text-center sm:text-left">
-              <span className="text-content text-[14px] md:text-[22px]">{"Bring exposure to your game, content to your communities and monetize your content directly on Twitter, mobile and VR!"}</span>
+              <span className="text-content text-[14px] md:text-[22px]">{"What if Uniswap met PSN? Bring your favorite games anywhere, play with your guilds and earn!"}</span>
           </div>
-          <div className="grid grid-cols-1 xl:grid-cols-3">
+          <div className="grid grid-cols-1 xl:grid-cols-3" >
               <div className="pr-5 mb-5"><Button caption="Get extension" icon="" bordered={false} onClick={() => router.push('https://solarity-stage.vercel.app')} /></div>
               <div className="pr-5 xl:pr-[30%] col-span-2"><Button caption="Watch video" icon="play" bordered={true} onClick={() => router.push('https://chrome.google.com/webstore/detail/twitter-verse/olmkofkehgfecicmijdhohcgglpnbnnh')} /></div>
           </div>

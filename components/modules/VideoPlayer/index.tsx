@@ -8,7 +8,7 @@ export const VideoPlayer = () => {
             <ReactPlayer
                 controls = {true}
                 className='react-player fixed-bottom'
-                url='https://youtu.be/s3ktYTdV6gw'
+                url='https://solarity-frontend.vercel.app/iframe/joinModal/plaza'
             />
         </div>
     </>

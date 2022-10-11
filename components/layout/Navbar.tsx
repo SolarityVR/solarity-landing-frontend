@@ -27,14 +27,14 @@ const Navbar = () => {
 
             {/* secondary nav */}
             <div className="hidden lg:flex items-center space-x-1">
-              <a href="#" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
+              <a href="#tuamadre" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" rel="noreferrer">
                 Features
               </a>
-              <a href="https://solarityvr.medium.com/" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
+              <a href="https://solarity-frontend.vercel.app/iframe/joinModal/plaza" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                 Demo
               </a>
-              <a href="https://twitter.com/Solarity_VR" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
-                Testimonials
+              <a href="https://solarityvr.medium.com/" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
+                Medium
               </a>
               <div className="px-2"><Button caption="Get extension" icon="" bordered={false} size="sm" onClick={null} /></div>
             </div>

@@ -16,6 +16,7 @@ export const ProductDeepLook = () => {
     const Deep1 = "/img/look1.png";
     const Deep2 = "/img/look2.png";
     const Deep3 = "/img/look3.png";
+    const Deep4 = "/img/look4.png";
     const bubbles1 = <><div className="absolute w-[19px] h-[19px] -bottom-[50px] left-[0px] -z-50 bg-gradient-small-radial2 rounded-full"></div>
     <div className="absolute w-[11px] h-[11px] -bottom-[70px] left-[25px] -z-50 bg-gradient-small-radial1 rounded-full"></div></>;
     const bubbles2 = <><div className="absolute w-[19px] h-[19px] bottom-[50px] right-[0px] -z-50 bg-gradient-small-radial1 rounded-full"></div>
@@ -35,7 +36,7 @@ export const ProductDeepLook = () => {
                 <Image src={SideImg3}></Image>
             </div>
             <div className="my-15 mt-[100px] mb-[5px] sm:mb-[50px]">
-                <div className="py-5">
+                <div className="py-5" id="tuamadre">
                     <DeepLookCard image={Deep1} logo={Logo1} caption="Verses" title="Bring your games and experiences anywhere" description="Bring your games and experiences anywhere on the web, with one click! Play the games you always loved, and start earning directly from Twitter. Looking for players on a game? Post your request as a Twitter post, and let users join there." direction={false} bubbles={bubbles1} ></DeepLookCard>
                 </div>
                 <div className="py-5 relative">
@@ -43,6 +44,9 @@ export const ProductDeepLook = () => {
                 </div>
                 <div className="py-5 relative">
                     <DeepLookCard image={Deep3} logo={Logo3} caption="Flocks" title="Play with your friends" description="Gaming is always more fun with friends. Getting them to join should be as easy as liking a post. That&apos;s why with our GameTag you are not forced to use an unpolished web3 UX but by aggregating your web3 wallets to your web2 identities you are bringing the metaverse anywhere you go!" direction={false} bubbles={bubbles3} ></DeepLookCard>
+                </div>
+                <div className="py-5 relative">
+                    <DeepLookCard image={Deep4} logo={Logo2} caption="GameID" title="Gaming Social Graph" description="Imprint and aggregate your web3 and web2 identities in a fully customizable passport. Show off your personality and flex your assets in a 3D room, embeddable anywhere. Invite people over: play, chat, trade, gamble all together, anywhere." direction={true} bubbles={bubbles2} ></DeepLookCard>
                 </div>
             </div>
         </div>
