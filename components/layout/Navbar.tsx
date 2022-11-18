@@ -36,7 +36,9 @@ const Navbar = () => {
               <a href="https://solarityvr.medium.com/" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
                 Medium
               </a>
+              <a href="https://chrome.google.com/webstore/detail/twitter-verse/olmkofkehgfecicmijdhohcgglpnbnnh" target="_blank">
               <div className="px-2"><Button caption="Get extension" icon="" bordered={false} size="sm" onClick={null} /></div>
+              </a>
             </div>
 
             {/* mobile menu */}
