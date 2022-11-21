@@ -27,7 +27,7 @@ const Navbar = () => {
 
             {/* secondary nav */}
             <div className="hidden lg:flex items-center space-x-1">
-              <a href="#tuamadre" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" rel="noreferrer">
+              <a href="#" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" rel="noreferrer">
                 Features
               </a>
               <a href="https://solarity-frontend.vercel.app/iframe/joinModal/plaza" className="text-[18px] text-[#929298] py-5 px-3.5 text-white hover:text-primary" target="_blank" rel="noreferrer">
