@@ -13,7 +13,7 @@ export const BannerText = () => {
             <div className="absolute w-[11px] h-[11px] -top-[75px] left-[25px] -z-50 bg-gradient-small-radial2 rounded-full"></div>
             <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
               <div className="banner-title">
-                <span className="text-white text-[36px] md:text-[65px] font-semibold tracking-wider leading-[2.7rem] md:leading-[4.6rem]">The Solana<br /> Gaming Network</span>
+                <span className="text-white text-[36px] md:text-[65px] font-semibold tracking-wider leading-[2.7rem] md:leading-[4.6rem]">The Social<br /> Gaming Network</span>
               </div>
             </AnimationOnScroll>
         </div>
