@@ -1,28 +1,17 @@
 import Head from "next/head";
-import { Advantage } from "../modules/Advantage";
-import { Banner } from "../modules/Banner";
-import { Concepts } from "../modules/Concepts";
-import { DeepLook } from "../modules/DeepLook";
-import { FunctionalMap } from "../modules/FunctionalMap";
-import { VideoPlayer } from "../modules/VideoPlayer";
-import { LoveSolarity } from "../modules/LoveSolarity";
-import { Faq } from "../modules/Faq";
-import { ContactUs } from "../modules/Contactus";
-import { MultiPlatform } from "../modules/MultiPlatform";
+import { Feedback } from "../modules/Feedback";
+import { ProductBanner } from "../modules/ProductBanner";
+import { ProductDeepLook } from "../modules/ProductDeepLook";
+import { ProductVideoPlayer } from "../modules/ProductDemoVid";
 
 export default function Landing() {
   return (
     <div className="py-2">
       <main className="max-w-[93rem] mx-auto flex-1 px-5 sm:px-11">
-        <Banner />
-        <Concepts />
-        <MultiPlatform />
-        <FunctionalMap />
-        <DeepLook />
-        <VideoPlayer />
-        <Advantage />
-        <LoveSolarity />
-        <ContactUs />
+        <ProductBanner />
+        <ProductDeepLook />
+        <ProductVideoPlayer />
+        <Feedback />
       </main>
     </div>
   );
