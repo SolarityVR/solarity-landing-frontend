@@ -20,7 +20,7 @@ const Navbar = () => {
               <div>
                 <a href="/" className="flex items-center py-3 px-2 text-white">
                   <Image src={Logo}></Image>
-                  <span className="logo-title text-[20px] sm:text-[25px] px-2 py-2 tracking-widest uppercase">Solarity</span>
+                  <span className="logo-title text-[20px] sm:text-[25px] px-2 py-2 tracking-widest uppercase">SGN</span>
                 </a>
               </div>
             </div>

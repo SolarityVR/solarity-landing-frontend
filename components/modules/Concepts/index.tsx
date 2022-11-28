@@ -21,14 +21,14 @@ export const Concepts = () => {
                 <div className="absolute w-[300px] h-[400px] -top-[160px] -left-[180px] -z-50 bg-light-gradient-radial from-purple-500 via-pink-500 to-red-500"></div>
                     <div className="text-center sm:text-left">
                         <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
-                            <span className="text-white text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What is <label className="text-lightprimary">Solarity?</label></span>
+                            <span className="text-white text-[22px] sm:text-5xl font-semibold tracking-wider leading-[3.7rem]">What is <label className="text-lightprimary">SGN?</label></span>
                         </AnimationOnScroll>
                     </div>
             </div>
             <AnimationOnScroll animateOnce={true} animateIn="animate__fade">
                 <div className="my-15 mt-[36px] grid grid-cols-5">
                     <div className="col-span-5 text-center sm:col-span-4 sm:text-left">
-                        <span className="text-content text-[14px] sm:text-[22px]">{"Solarity is the framework to give the order web3 Gaming deserves. Who knows how to build good games usually isn’t efficient at web3 marketing and blockchain development, and viceversa for web3 communities and devs leading to almost no active users. We want to provide a place for games to let any user access their game anywhere, and the right incentives for users to play it and share it."}</span>
+                        <span className="text-content text-[14px] sm:text-[22px]">{"SGN is the framework to give the order web3 Gaming deserves. Who knows how to build good games usually isn’t efficient at web3 marketing and blockchain development, and viceversa for web3 communities and devs leading to almost no active users. We want to provide a place for games to let any user access their game anywhere, and the right incentives for users to play it and share it."}</span>
                     </div>
                 </div>
             </AnimationOnScroll>

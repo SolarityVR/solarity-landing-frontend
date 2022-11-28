@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
           <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'></link>
           <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
           <link rel="shortcut icon" href="/favicon.png"></link>
-          <title>Solarity</title>
+          <title>SGN</title>
       </Head>
       <Layout>
         <Component {...pageProps} />

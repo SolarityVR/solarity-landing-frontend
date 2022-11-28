@@ -16,7 +16,7 @@ export default function Footer() {
                 <div className="mb-6 md:mb-0">
                     <a href="#" className="flex items-center">
                         <Image src={LogoGrey}></Image>
-                        <span className="self-center text-[26px] whitespace-nowrap text-white tracking-wide">&nbsp;SOLARITY</span>
+                        <span className="self-center text-[26px] whitespace-nowrap text-white tracking-wide">&nbsp;SGN</span>
                     </a>
                     <p className="mt-8 text-white text-[18px] mr-10">Join our mailing list for more updates</p>
                     
@@ -79,7 +79,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="flex items-center justify-center mt-5">
-                <span className="text-[15px] text-gray-400 text-center">© 2022 <a href="#" className="hover:underline">SOLARITY</a>. All Rights Reserved.
+                <span className="text-[15px] text-gray-400 text-center">© 2022 <a href="#" className="hover:underline">SGN</a>. All Rights Reserved.
                 </span>
             </div>
         </footer>

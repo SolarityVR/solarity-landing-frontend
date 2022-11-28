@@ -15,7 +15,7 @@ export const BannerText = () => {
               <span className="text-content text-[14px] md:text-[22px]">Your Games, Your Friends <br /> Your Quests. Anywhere</span>
           </div>
           <div className="grid grid-cols-1 xl:grid-cols-3">
-              <div className="pr-5 mb-5"><Button caption="Start App" icon="" bordered={false} onClick={() => router.push('https://solarity-stage.vercel.app')} /></div>
+              <div className="pr-5 mb-5"><Button caption="Start App" icon="" bordered={false} onClick={() => router.push('https://app.sgn.wtf')} /></div>
               <div className="pr-5 xl:pr-[30%] col-span-2"><Button caption="Download extension" icon="chrome" bordered={true} onClick={() => router.push('https://chrome.google.com/webstore/detail/twitter-verse/olmkofkehgfecicmijdhohcgglpnbnnh')} /></div>
           </div>
     </>
